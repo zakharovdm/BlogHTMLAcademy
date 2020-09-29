@@ -61,7 +61,7 @@
 							<div class="tags">Теги: рецепты</div>
 							<time datetime="2020-06-24">24.06.2020</time>
 					</article>
-					<div class="button">Показать еще</div>
+					<input type="button" value="Показать еще">
 				</section>
 				<section class="about-me">
 					<h1 id="info">Обо мне</h1>
@@ -91,10 +91,19 @@
 						<h2>«Советы по эффективной удалённой работе»</h2>
 						<p>Поделилась лайфхаками, которые помогают мне работать продуктивно из дома.</p>
 					</article>
-					<div class="button">ПОКАЗАТЬ ЕЩЕ</div>
+					<input type="button" value="ПОКАЗАТЬ ЕЩЕ">
 				</section>
 				<section class="feedback">
 					<h1 id="feedback">Написать мне</h1>
+					<form action="https://example.ru" method="post">
+						<label for="user_name">Ваше имя</label><br>
+						<input id="user_name" type="text" name="name" required minlength="10" maxlength="200" placeholder="Иван Иванов"><br>
+						<label for="email">Email</label><br>
+						<input id="email" type="email" name="email" required minlength="10" maxlength="200" placeholder="google@gmail.com"><br>
+						<label for="message">Сообщение</label><br>
+						<textarea id="message" name="message"  placeholder="Напишите здесь ваше сообщение" rows="10"></textarea><br>
+						<input type="submit" value="Отправить">
+					</form>
 				</section>
 			</main>
 			<footer class="page-footer">
