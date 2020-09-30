@@ -39,10 +39,32 @@
 				<div>Здесь будет изображение лайка</div>
 				<div>Количество лайков</div>
 				<div>Логотипы Twitter, FB,	VK</div>
-				<div><a href=#наглавную>Ко всем статьям(Ссылка для перехода на главную)</a></div>			
+				<div><a href=#наглавную>Ко всем статьям(Ссылка для перехода на главную) Справа должна быть стрелочка</a></div>			
 				<article class="comments">
-					<div class="left-comments"></div>
+					<div class="left-comments">
+						<div class="user-1">
+							<img alt="аватар">
+							<div class="commentator-name">Иван Петров</div>
+							<div class="comment">Отличная статья! Спасибо.</div>
+						</div>
+						<div class="user-2">
+							<img alt="аватар">
+							<div class="commentator-name">Ксения Ксения</div>
+							<div class="comment">Отличный текст, добавила в закладки.</div>
+						</div>
+						<div class="user-3">
+							<img alt="аватар">
+							<div class="commentator-name">Иван Иванов</div>
+							<div class="comment">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</div>
+						</div>		
+					</div>
 					<h2>Оставить комментарий</h2>
+					<form action="https://example.ru" method="post">
+						<input id="user_name" type="text" name="name" required minlength="10" maxlength="200" placeholder="Имя"><br>
+						<input id="email" type="email" name="email" required minlength="10" maxlength="200" placeholder="Почта"><br>
+						<textarea id="message" name="message"  placeholder="Написать комментарий" rows="10"></textarea><br>
+						<input type="submit" value="Отправить">
+					</form>
 				</article>
 			</main>
 			<footer class="page-footer">
