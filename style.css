@@ -18,8 +18,16 @@
 	top: 4px;
 }
 
+h1 {
+	font-family: "Spectral SC", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 55px;
+}
+
 a {
-	font-family: "Open Sans", Arial, sans-serif>;
+	font-family: "Open Sans", Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -64,4 +72,4 @@ footer{
 	width: 1440px;
 	height: 181px;
 	background-color: #D7D1C9;
-}
+} /*TODO Выровнять ссылки в футере*/
