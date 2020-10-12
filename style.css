@@ -48,7 +48,8 @@ label{
 	line-height: 28px;
 }
 
-a {
+a,
+select {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -56,6 +57,18 @@ a {
 	line-height: 25px;
 	text-decoration: none;	
 	color: #2E2F22;
+}
+
+select {
+	position: absolute;
+	left: 1116px;
+	top: 664px;
+	font-size: 16px;
+	line-height: 22px;
+	background-color: #D7D1C9;
+	border-radius: 10px; /*Застилизовать развенутый список*/
+	width: 203px;
+	height: 46px;
 }
 
 nav a:nth-child(1){
