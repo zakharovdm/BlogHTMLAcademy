@@ -39,7 +39,24 @@ h2 {
 .portfolio h2{
 	font-size: 20px;
 	line-height: 30px;
-	/*color: #FFFFFF; Добавить после добавления фоного изображения*/
+	/* TODOcolor: #FFFFFF; Добавить после добавления фоного изображения*/
+}
+
+.post4{
+	width: 823.28px;
+	height: 552px;
+	background-image: url(img/backgroundpost1.png);
+	background-repeat: no-repeat;
+	background-size: 590px 552px;
+	/*TODO Скореектировать размер фонового изображения у post4 и post5 */
+}
+
+.post5{
+	width: 823.28px;
+	height: 552px;
+	background-image: url(img/backgroundpost2.png);
+	background-repeat: no-repeat;
+	background-size: 590px 552px;
 }
 
 h3,
@@ -49,7 +66,8 @@ label{
 }
 
 a,
-select {
+select,
+p {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -59,6 +77,18 @@ select {
 	color: #2E2F22;
 }
 
+p,
+time,
+.tags {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+time,
+.tags{
+	color: rgba(46, 47, 34, 0.7);
+}
+
 select {
 	position: absolute;
 	left: 1116px;
@@ -66,7 +96,7 @@ select {
 	font-size: 16px;
 	line-height: 22px;
 	background-color: #D7D1C9;
-	border-radius: 10px; /*Застилизовать развенутый список*/
+	border-radius: 10px; /* TODO Застилизовать развенутый список*/
 	width: 203px;
 	height: 46px;
 }
