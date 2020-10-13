@@ -102,6 +102,14 @@ time,
 	color: rgba(46, 47, 34, 0.7);
 }
 
+blockquote p{
+	font-style: italic;
+	font-size: 30px;
+	line-height: 40px;
+	border-left: 3px solid #D7D1C9;
+	padding-left: 20px;
+}
+
 select {
 	position: absolute;
 	left: 1116px;
