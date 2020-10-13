@@ -67,7 +67,8 @@ label{
 
 a,
 select,
-p {
+p,
+input {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -75,6 +76,18 @@ p {
 	line-height: 25px;
 	text-decoration: none;	
 	color: #2E2F22;
+}
+
+input{
+	font-size: 16px;
+	line-height: 22px;
+	width: 224px;
+	height: 46px;
+	border: 1px solid #202117;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	/* Уменьшить текст внутри Value */
 }
 
 p,
