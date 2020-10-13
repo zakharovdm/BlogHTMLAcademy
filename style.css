@@ -39,7 +39,6 @@ h2 {
 .portfolio h2{
 	font-size: 20px;
 	line-height: 30px;
-	/* TODOcolor: #FFFFFF; Добавить после добавления фоного изображения*/
 }
 
 .post4{
@@ -102,12 +101,48 @@ time,
 	color: rgba(46, 47, 34, 0.7);
 }
 
+.tags-white,
+.time-white{
+	color: rgba(255, 255, 255, 0.7);
+}
+
 blockquote p{
 	font-style: italic;
 	font-size: 30px;
 	line-height: 40px;
 	border-left: 3px solid #D7D1C9;
 	padding-left: 20px;
+}
+
+/*TODO Скорректировать фоновые изображения в портфолио*/
+.portfolio1{
+	width: 744px;
+	height: 525px;
+	background-image: url(img/backport1.png);
+	background-repeat: no-repeat;
+	border-size: 387px 525px;
+
+}
+
+.portfolio2{
+	width: 744px;
+	height: 525px;
+	background-image: url(img/backport2.png);
+	background-repeat: no-repeat;
+	border-size: 387px 525px;
+}
+
+.portfolio3{
+	width: 744px;
+	height: 525px;
+	background-image: url(img/backport3.png);
+	background-repeat: no-repeat;
+	border-size: 387px 525px;
+
+}
+
+.text-white{
+	color: #FFFFFF;
 }
 
 select {
