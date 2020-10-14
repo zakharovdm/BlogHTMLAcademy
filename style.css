@@ -189,7 +189,7 @@ nav a:nth-child(4){
 	top: 33px;
 }
 
-form{
+.feedback form{
 	width: 1000px;
 	height: 670.17px;
 	background-image: url(img/formback.png);
@@ -197,13 +197,13 @@ form{
 	background-size: 996px 637px;
 }
 
-form input{
+.feedback form input{
 	width: 407px;
 	height: 63px;
 	background-color: rgba(255, 255, 255, 0.4);
 }
 
-textarea{
+.feedback textarea{
 	width: 837px;
 	height: 293px;
 	background-color: rgba(255, 255, 255, 0.4);
@@ -220,3 +220,8 @@ footer{
 	background-color: #D7D1C9;
 } /*TODO Выровнять ссылки в футере*/
 
+.left-comments{
+	width: 793px;
+	height: 429px;
+	background-color: #ECE1E1;
+}
