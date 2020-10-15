@@ -225,3 +225,14 @@ footer{
 	height: 429px;
 	background-color: #ECE1E1;
 }
+
+.comments textarea{
+	width: 406px;
+	height: 208px;
+}
+
+.comments form input:not(:last-child){
+	border: none;
+	border-bottom: 1px solid #2E2F22;
+	border-radius: 0px ;
+}
