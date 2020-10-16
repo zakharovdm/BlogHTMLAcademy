@@ -67,7 +67,10 @@ label{
 a,
 select,
 p,
-input {
+input,
+.left-comments,
+.form-comments
+{
 	font-family: "Open Sans", Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -75,6 +78,30 @@ input {
 	line-height: 25px;
 	text-decoration: none;	
 	color: #2E2F22;
+}
+
+.to-home a{
+	font-size: 36px;
+	line-height: 49px;
+	text-decoration: none;	
+	color: #2E2F22;
+}
+
+.commentator-name{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.comment{
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.form-comments{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
 }
 
 input{
