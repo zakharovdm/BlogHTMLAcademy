@@ -1,3 +1,18 @@
+.articles{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+article{
+	width: 387px;
+  	margin-bottom: 62px;
+  	border-radius: 10px;
+}
+
+
+
 .page-header{
 	background-image: url("img/background1.png");
 	width: 1440px;
@@ -175,11 +190,13 @@ blockquote p{
 select {
 	position: absolute;
 	left: 1116px;
-	top: 664px;
+	top: 630px;
+	padding: 12px 20px;
 	font-size: 16px;
 	line-height: 22px;
-	background-color: #D7D1C9;
+	background: url(img/icon.png) center right 22px no-repeat #D7D1C9;
 	border-radius: 10px; /* TODO Застилизовать развенутый список*/
+	appearance: none; 
 	width: 203px;
 	height: 46px;
 }
