@@ -1,16 +1,22 @@
+.all-posts{
+	position: relative;
+  	width: 1200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 85px;
+}
+
 .articles{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
-
-article{
+.art{
 	width: 387px;
   	margin-bottom: 62px;
   	border-radius: 10px;
 }
-
 
 
 .page-header{
@@ -31,6 +37,15 @@ article{
 	height: 82.51px;
 	left: 120px;
 	top: 4px;
+}
+
+.big-art{
+	position: absolute;
+  	bottom: 130px;
+  	padding-left: 82px;
+  	padding-right: 82px;
+  	width: 426px;
+	height: 190px;	
 }
 
 h1,
@@ -57,20 +72,19 @@ h2 {
 }
 
 .post4{
-	width: 823.28px;
-	height: 552px;
+	width: 590px;
+  	height: 552px;
 	background-image: url(img/backgroundpost1.png);
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 590px 552px;
-	/*TODO Скореектировать размер фонового изображения у post4 и post5 */
 }
 
 .post5{
-	width: 823.28px;
-	height: 552px;
+	width: 590px;
+  	height: 552px;
 	background-image: url(img/backgroundpost2.png);
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 590px 552px;
 }
 
 h3,
@@ -89,7 +103,7 @@ input,
 	font-family: "Open Sans", Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 25px;
 	text-decoration: none;	
 	color: #2E2F22;
@@ -131,17 +145,19 @@ input{
 	/* Уменьшить текст внутри Value */
 }
 
-p,
 time,
 .tags {
+	display: inline-block;
+	color: rgba(46, 47, 34, 0.7);
 	font-size: 16px;
 	line-height: 26px;
 }
 
-time,
-.tags{
-	color: rgba(46, 47, 34, 0.7);
+.info{
+	display: flex;
+  	justify-content: space-between;
 }
+
 
 .tags-white,
 .time-white{
@@ -184,18 +200,22 @@ blockquote p{
 }
 
 .text-white{
+	font-size: 18px;
+	line-height: 28px;
 	color: #FFFFFF;
 }
 
 select {
 	position: absolute;
-	left: 1116px;
-	top: 630px;
+	right: 0px;
+  	top: 0px;
 	padding: 12px 20px;
 	font-size: 16px;
 	line-height: 22px;
 	background: url(img/icon.png) center right 22px no-repeat #D7D1C9;
 	border-radius: 10px; /* TODO Застилизовать развенутый список*/
+	border: 0px;
+	outline: none;
 	appearance: none; 
 	width: 203px;
 	height: 46px;
