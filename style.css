@@ -32,15 +32,6 @@
 	top: 4px;
 }
 
-.big-art{
-	position: absolute;
-  	bottom: 130px;
-  	padding-left: 82px;
-  	padding-right: 82px;
-  	width: 426px;
-	height: 190px;	
-}
-
 h1,
 h2,
 h3,
@@ -66,22 +57,6 @@ h2 {
 .portfolio h2{
 	font-size: 20px;
 	line-height: 30px;
-}
-
-.post4{
-	width: 590px;
-  	height: 552px;
-	background-image: url(img/backgroundpost1.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.post5{
-	width: 590px;
-  	height: 552px;
-	background-image: url(img/backgroundpost2.png);
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 h3,
