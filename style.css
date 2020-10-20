@@ -18,13 +18,6 @@
   	border-radius: 10px;
 }
 
-
-.page-header{
-	background-image: url("img/background1.png");
-	width: 1440px;
-	height: 581px;
-}
-
 .page-header2{
 	background-image: url("img/background2.png");
 	width: 1440px;
@@ -314,12 +307,30 @@ nav a:nth-child(4){
 	top: 33px;
 }
 
+.feedback{
+	width: 996px;
+  	height: 637px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 143px;
+}
+
 .feedback form{
-	width: 1000px;
-	height: 670.17px;
+	display: flex;
+  	flex-direction: column;
+  	padding: 53px 78px 62px 81px;
+	border-radius: 10px;
 	background-image: url(img/formback.png);
 	background-repeat: no-repeat;
 	background-size: 996px 637px;
+}
+
+.feedback-container{
+	display: flex;
+  	flex-direction: column;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+  	height: 123px;
 }
 
 .feedback form input{
