@@ -146,18 +146,22 @@
 						</ul>
 						<a class="section-button" href="page.html">Показать еще</a>
 					</section>
-					<section class="feedback">
-						<h1 class="title" id="feedback">Написать мне</h1>
-						<form action="https://example.ru" method="post">
-							<div class="feedback-container">
-								<label for="user_name">Ваше имя</label>
-								<input id="user_name" type="text" name="name" required placeholder="Иван Иванов">
-								<label for="email">Email</label>
-								<input id="email" type="email" name="email" required placeholder="google@gmail.com">
-							</div>
-							<label for="message">Сообщение</label><br>
-							<textarea id="message" name="message"  placeholder="Напишите здесь ваше сообщение" rows="10"></textarea><br>
-							<input class="submit" type="submit" value="ОТПРАВИТЬ">
+					<section class="feedback" id="feedback">
+						<h2 class="section-heading" >Написать мне</h2>
+						<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+							<p class="input-wrapper">
+								<label class="input-label" for="user_name">Ваше имя</label>
+								<input class="text-input js-input" id="user_name" type="text" name="name" required placeholder="Иван Иванов">
+							</p>
+							<p class="input-wrapper">
+								<label class="input-label" for="email">Email</label>
+								<input class="text-input js-input" id="email" type="email" name="email" required placeholder="google@gmail.com">
+							</p>
+							<p class="input-wrapper-big">
+								<label class="input-label" for="message">Сообщение</label>
+								<textarea class="text-field js-message" id="message" name="message"  placeholder="Напишите здесь ваше сообщение."></textarea>
+							</p>
+							<button class="section-button js-submit" type="submit">ОТПРАВИТЬ</button>
 						</form>
 					</section>
 				</div>
