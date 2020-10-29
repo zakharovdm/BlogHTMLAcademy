@@ -23,6 +23,69 @@ img{
 
 /* Шапка сайта */
 
+.page-header{
+	position: relative;
+}
+
+.page-header .content-wrapper{
+	flex-direction: row;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.logo{
+	margin-top: 4px;
+	transition: all 0.5s ease;
+}
+
+.logo[href]:hover{
+	opacity: 0.8;
+	transition: all 0.5s ease;
+}
+
+.header-nav{
+	margin-left: auto;
+}
+
+.nav-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 33px;
+}
+
+.nav-item{
+	margin-left: 83px;
+}
+
+.nav-link{
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.nav-link:hover{
+	color: #ACC5D8;
+	transition: all 0.5s ease;
+}
+
+.nav-link:active {
+  color: #ACC5D8B3;
+  transition: all 0.5s ease;
+}
+
+.main-poster{
+	width: 100%;
+	height: auto;
+}
+
 .all-posts{
 	position: relative;
   	width: 1200px;
@@ -43,13 +106,7 @@ img{
   	border-radius: 10px;
 }
 
-.logo{
-	position: absolute;
-	width: 130px;
-	height: 82.51px;
-	left: 120px;
-	top: 4px;
-}
+
 
 h1,
 h2,
@@ -255,37 +312,7 @@ select {
 	height: 46px;
 }
 
-nav a:nth-child(1){
-	position: absolute;
-	width: 61px;
-	height: 25px;
-	left: 710px;
-	top: 33px;
-}
 
-nav a:nth-child(2){
-	position: absolute;
-	width: 76px;
-	height: 25px;
-	left: 854px;
-	top: 33px;
-}
-
-nav a:nth-child(3){
-	position: absolute;
-	width: 100px;
-	height: 25px;
-	left: 1013px;
-	top: 33px;
-}
-
-nav a:nth-child(4){
-	position: absolute;
-	width: 123px;
-	height: 25px;
-	left: 1196px;
-	top: 33px;
-}
 
 .feedback{
 	width: 996px;
