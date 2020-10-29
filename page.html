@@ -98,17 +98,27 @@
 								<p class="comment-text">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
 							</li>		
 						</ul>
-					</section>	
-						<h2 class="form-comments">Оставить комментарий</h2>
-						<form action="https://example.ru" method="post">
-							<input id="user_name" type="text" name="name" required minlength="10" maxlength="200" placeholder="Имя"><br>
-							<input id="email" type="email" name="email" required minlength="10" maxlength="200" placeholder="Почта"><br>
-							<textarea id="message" name="message"  placeholder="Написать комментарий..." rows="10"></textarea><br>
-							<input type="submit" value="Отправить">
-						</form>
-					
+					</section>
+					<form class="comment-form js-form" action="https://echo.htmlacademy.ru" method="post">	
+						<fieldset class="comment-fieldset">
+							<legend class="comment-heading">Оставить комментарий</legend>
+							<div class="form-group">
+								<p class="input-container">
+									<input class="input-field js-input js-name" id="user_name" type="text" name="name" required>
+									<label class="input-text" for="user-name" >Имя</label>
+								</p>
+								<p class="input-container">
+									<input class="input-field js-input" id="email" type="email" name="email" required>
+									<label class="input-text" for="email">Почта</label>
+								</p>
+								<button class="section-button js-submit">Отправить</button>
+								<textarea class="comment-field js-message" id="message" name="message"  placeholder="Написать комментарий..."></textarea>
+							</div>
+						</fieldset>	
+					</form>
 				</div>
 			</main>
+			
 			<footer>
 				<a href="https://vk.com">ВК</a>
 				<a href="https://web.telegram.org">Телеграм</a>
