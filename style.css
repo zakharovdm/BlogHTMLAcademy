@@ -1,3 +1,28 @@
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	background-color: #fff;
+	color: #2E2F22;
+	min-width: 1240px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.content-wrapper{
+	width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Шапка сайта */
+
 .all-posts{
 	position: relative;
   	width: 1200px;
@@ -59,21 +84,7 @@ label{
 	line-height: 28px;
 }
 
-a,
-select,
-p,
-input,
-.left-comments,
-.form-comments
-{
-	font-family: "Open Sans", Arial, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 25px;
-	text-decoration: none;	
-	color: #2E2F22;
-}
+
 
 .to-home a{
 	font-size: 36px;
