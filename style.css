@@ -58,11 +58,11 @@ img{
 	margin-top: 33px;
 }
 
-.nav-item{
+.nav-item {
 	margin-left: 83px;
 }
 
-.nav-link{
+.nav-link {
 	font-size: 18px;
 	line-height: 25px;
 	color: #2E2F22;
@@ -70,7 +70,7 @@ img{
 	transition: all 0.5s ease;
 }
 
-.nav-link:hover{
+.nav-link:hover {
 	color: #ACC5D8;
 	transition: all 0.5s ease;
 }
@@ -80,14 +80,14 @@ img{
   transition: all 0.5s ease;
 }
 
-.main-poster{
+.main-poster {
 	width: 100%;
 	height: auto;
 }
 
-/* Статьи */ /* Fix Разобраться почему не вырванивается */
+/* Статьи */
 
-.articles{
+.articles {
 	padding-top: 71px;
 	display: flex;
 	flex-direction: column;
@@ -95,7 +95,7 @@ img{
 	margin-bottom: 80px;
 }
 
-.section-header{
+.section-header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -103,14 +103,14 @@ img{
 	width: 100%;
 }
 
-.section-heading{
+.section-heading {
 	font-family: 'Spectral SC', Times New Roman, serif;
 	font-size: 36px;
-  	line-height: 55px;
+  	line-height: 65px;
   	margin: 0;
 }
 
-.select-article{
+.select-article {
 	height: 100%;
 	font-size: 16px;
 	line-height: 22px;
@@ -129,7 +129,7 @@ img{
   transition: all 0.5s ease;
 }
 
-.select{
+.select {
 	position: relative;
 	margin-left: 30px;
 }
@@ -218,7 +218,7 @@ img{
 .article-item:nth-child(4),
 .article-item:nth-child(5) {
 	width: 590px;
-	min-width: 552px;
+	min-height: 552px;
 }
 
 .article-item:nth-child(4) .blog-post,
@@ -300,7 +300,7 @@ img{
 	margin-bottom: 75px;
 }
 
-.about-me_main {
+.about-me-main {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 49px;
@@ -312,7 +312,7 @@ img{
 	align-self: flex-start;
 } 
 
-.about-me_container{
+.about-me-container{
 	margin-top: 40px;
 }
 
