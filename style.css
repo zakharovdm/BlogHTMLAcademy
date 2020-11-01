@@ -358,6 +358,7 @@ img{
 	margin-top: 45px;
 	margin-bottom: 57px;
 	padding: 0;
+	display: flex;
 	flex-direction: row;
 }
 
