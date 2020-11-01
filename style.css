@@ -447,3 +447,92 @@ img{
 }
 
 /* Форма обратной связи */
+
+.feedback {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 85px;
+}
+
+.feedback-form {
+	background-image: url(img/formback.png);
+	backdrop-filter: blur(8px);
+	background-size: cover;
+	width: 996px;
+	padding: 52px 80px 58px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 44px;
+}
+
+.input-wrapper {
+	width: 407px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.input-wrapper-big {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.input-label {
+  font-family: 'Spectral SC', Times New Roman, serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.text-input {
+	width: 100%;
+	font-size: 16px;
+	line-height: 22px;
+	color: #202117B3;
+	background: rgba(255, 255, 255, 0.4);
+	border: 1px solid #202117;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 20px;
+	transition: all 0.5s ease;
+}
+
+.text-input:hover,
+.text-input:focus,
+.text-field:hover,
+.text-field:focus {
+  background-color: white;
+  border-color: #000;
+  color: black;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.text-field {
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202117B3;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #202117;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 293px;
+  resize: none;
+}
+
+.feedback-form .section-button {
+	background-color: transparent;
+	text-transform: uppercase;
+	margin-top: 0px; 
+}
