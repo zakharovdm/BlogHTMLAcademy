@@ -536,3 +536,46 @@ img{
 	text-transform: uppercase;
 	margin-top: 0px; 
 }
+
+/* Подвал сайта */
+
+.page-footer {
+	background: #D7D1C9;
+	padding: 65px 0 90px; 
+}
+
+.social-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+
+.social-item {
+	margin-right: 120px;
+}
+
+.social-item:last-child {
+	margin-right: 0;
+}
+
+.social-link {
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.social-link:hover {
+	color: #ACC5D8;
+  	transition: all 0.5s ease;
+}
+
+.social-link:active {
+  color: #ACC5D8B3;
+  transition: all 0.5s ease;
+}
