@@ -343,7 +343,7 @@ img{
 	top: -25px;
 }
 
-/* Портфолио */ /* Fix Разобраться почему не вырванивается */
+/* Портфолио */
 
 .portfolio {
 	display: flex;
@@ -376,15 +376,15 @@ img{
 }
 
 .portfolio-item-blog {
-	background-image: url(img/backport1.png);
+	background-image: url(img/portfolio-1.jpg);
 }
 
 .portfolio-item-kiss {
-	background-image: url(img/backport2.png);
+	background-image: url(img/portfolio-2.jpg);
 }
 
 .portfolio-item-effective {
-	background-image: url(img/backport3.png);
+	background-image: url(img/portfolio-3.jpg);
 }
 
 .portfolio-link {
