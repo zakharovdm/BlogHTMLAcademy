@@ -579,3 +579,45 @@ img{
   color: #ACC5D8B3;
   transition: all 0.5s ease;
 }
+
+/* Страница статьи */
+
+.post-article {
+	width:: 997px;
+	padding-top: 70px;
+}
+
+.post-article .post-tags {
+	margin-right: 25px;
+	margin-top: 6px;
+	margin-bottom: 50px;
+}
+
+.post-article .post-date {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 50px;
+	margin-top: 6px;
+}
+
+.post-body .text {
+	margin-bottom: 25px;
+}
+
+.article-illustration {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.illustration-caption{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 3px;
+}
+
+.article-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
