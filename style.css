@@ -291,7 +291,7 @@ img{
   transition: all 0.5s ease;
 }
 
-/* Об авторе */ /* Fix Разобраться почему не вырванивается */
+/* Об авторе */ 
 
 .about-me {
 	display: flex;
@@ -301,6 +301,7 @@ img{
 }
 
 .about-me-main {
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 49px;
