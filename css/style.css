@@ -121,7 +121,7 @@ img{
 	appearance: none;
 	border: none;
 	transition: all 0.5s ease;
-	background: url(img/icon.png) center right 22px no-repeat #D7D1C9;
+	background: url(../img/icon.png) center right 22px no-repeat #D7D1C9;
 }
 
 .select-article:hover {
@@ -376,15 +376,15 @@ img{
 }
 
 .portfolio-item-blog {
-	background-image: url(img/portfolio-1.jpg);
+	background-image: url(../img/portfolio-1.jpg);
 }
 
 .portfolio-item-kiss {
-	background-image: url(img/portfolio-2.jpg);
+	background-image: url(../img/portfolio-2.jpg);
 }
 
 .portfolio-item-effective {
-	background-image: url(img/portfolio-3.jpg);
+	background-image: url(../img/portfolio-3.jpg);
 }
 
 .portfolio-link {
@@ -456,7 +456,7 @@ img{
 }
 
 .feedback-form {
-	background-image: url(img/formback.png);
+	background-image: url(../img/formback.png);
 	backdrop-filter: blur(8px);
 	background-size: cover;
 	width: 996px;
@@ -583,7 +583,7 @@ img{
 /* Страница статьи */
 
 .post-article {
-	width:: 997px;
+	width: 997px;
 	padding-top: 70px;
 }
 
