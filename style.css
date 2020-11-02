@@ -621,3 +621,77 @@ img{
 	justify-content: space-between;
 	margin-top: 40px;
 }
+
+.like-button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+}
+
+.like-counter {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -12px;
+	margin-left: 8px;
+}
+
+.social-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-icon {
+	margin-left: 32px;
+}
+
+.social-button:hover path,
+.social-button:active path {
+  fill: firebrick;
+  transition: all 0.5s ease;
+}
+
+.all-article-link {
+	font-weight: bold;
+	font-size: 36px;
+  	line-height: 49px;
+  	text-decoration: none;
+  	color: #2E2F22;
+  	margin-top: 37px;
+  	display: flex;
+  	align-items: center;
+  	transition: all 0.5s ease;
+}
+
+.all-article-link svg {
+	margin-left: 28px;
+}
+
+.all-article-link:hover,
+.all-article-link:active {
+  color: #5E5F55;
+  transition: all 0.5s ease;
+}
+
+.all-article-link:hover path,
+.all-article-link:active path {
+  fill: #5E5F55;
+  transition: all 0.5s ease;
+}
+
+.all-article-link svg,
+.all-article-link path {
+  transition: all 0.5s ease;
+}
+
+.all-article-link:hover svg {
+  transform: translateX(50px);
+  transition: all 0.5s ease;
+}
