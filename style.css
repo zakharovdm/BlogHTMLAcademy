@@ -695,3 +695,156 @@ img{
   transform: translateX(50px);
   transition: all 0.5s ease;
 }
+
+/* Комментарии */
+
+.comments {
+	width: 793px;
+	background: #ECE1E1;
+	border-radius: 10px;
+	padding: 44px 80px 36px 100px;
+	margin-top: 65px;
+	box-sizing: border-box;
+}
+
+.comments ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.comment {
+	margin-bottom: 55px;
+}
+
+.comment:last-child {
+	margin-bottom: 0;
+}
+
+.comment-avatar {
+	border-radius: 10px;
+	width: 50px;
+	margin-right: 13px;
+	margin-bottom: 14px;
+	float: left;
+}
+
+.comment-name {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0;
+	padding-top: 13px;
+	margin-bottom: 30px;
+}
+
+.comment-text {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.comment-form {
+	width: 793px;
+	padding-top: 77px;
+	padding-bottom: 64px;
+	padding-left: 80px;
+	padding-right: 0;
+	box-sizing: border-box;
+}
+
+.comment-fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.comment-heading {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	width: 100%;
+	margin-bottom: 78px;
+}
+
+.input-container {
+	position: relative;
+	width: 220px;
+	margin: 0;
+	margin-bottom: 46px;
+}
+
+.input-text {
+	font-size: 16px;
+	line-height: 22px;
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+}
+
+.input-field {
+	font-size: 16px;
+	line-height: 22px;
+	border: none;
+	border-bottom: 1px solid #2E2F22 ;
+	width: 100%;
+	transform: translateY(-0px);
+	transition: all 0.5s ease;
+}
+
+.input-field:hover {
+  border-color: black;
+  transition: all 0.5s ease;
+}
+
+.input-field:focus {
+  border-color: black;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.input-field:focus + .input-text,
+.input-field:not(:placeholder-shown) + .input-text {
+  transform: translateY(-15px);
+  transition: all 0.5s ease;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	height: 215px;
+	flex-wrap: wrap;
+}
+
+.comment-field {
+	font-size: 16px;
+	line-height: 22px;
+	width: 406px;
+	height: 96%;
+	margin-left: 84px;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: -10px;
+	box-sizing: border-box;
+	resize: none;
+	transition: all 0.5s ease;
+}
+
+.comment-field:hover {
+  border-color: black;
+  transition: all 0.5s ease;
+}
+
+.comment-field:focus {
+  border-color: black;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.comment-form .section-button {
+	background-color: transparent;
+	margin: 0;
+	margin-top: 6px;
+}
