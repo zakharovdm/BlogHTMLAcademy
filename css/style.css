@@ -633,6 +633,16 @@ img{
 	padding: 0;
 }
 
+.like-button:hover path,
+.like-button:active path {
+  fill: #2E2F22;
+  transition: all 0.5s ease;
+}
+
+.like-button.added path {
+  fill: firebrick;
+}
+
 .like-counter {
 	display: inline-block;
 	vertical-align: middle;
